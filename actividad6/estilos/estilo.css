@@ -1,0 +1,150 @@
+/* Pon aquí el código CSS que necesites para aplicar los estilos necesarios */
+/*Act-1*/
+#caja1-act1{
+position: relative;
+top: 95px;
+left:300px;
+}
+
+#caja3-act1{
+    position: relative;
+    left: 300px;
+}
+#segundo-párrafo-act1{
+    position: relative;
+    bottom: 20px;
+}
+
+/*Act-2*/
+
+.act2{
+    position: relative;
+}
+
+#caja1-act2{
+    position: absolute;
+   right: 0px;
+
+
+}
+#caja3-act2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#primer-párrafo{
+    position: absolute;
+    bottom:0px;
+    left: 20px;
+
+
+}
+#segundo-párrafo{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+
+}
+
+/*Act-3*/
+
+.act3-contenedor{
+    position: relative;
+}
+
+#arriba-izquierda{
+    position: absolute;
+    top: 0px;
+    left:0px
+   }
+
+#arriba-derecha{
+    position: absolute;
+    top:0px ;
+    right: 0px;
+
+}
+#abajo-izquierda{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#abajo-derecha{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#centrado{
+    position: absolute;
+    top: 45%;
+    right: 45%;
+}
+/*act-4*/
+
+#cabecera{
+    height: 30px;
+    border: solid 30px; color:blue
+
+}
+
+
+#Menú{
+   
+   float: left;width: 150px;height: 130px;
+   border: solid 1px; color:blue
+}
+#cuerpo{
+    height: 130px;
+    border: solid 1px; color:blue
+}
+#pie{
+    height: 30px;
+    border: solid 1px; color:blue
+
+   }
+    
+    
+/*act-5*/
+
+
+/* Quizá para algunas actividades debas modificar estilos estilos según corresponda */
+.contenedor-actividades .act7 .imagen-gato{
+    float: left;
+}
+
+.contenedor-actividades .act7 .imagen-perros{
+    float: right;
+}
+
+.contenedor-actividades .act8-contenedor{
+    position: relative;
+}
+
+.contenedor-actividades .act8 .imagen-perros{
+    float: right;
+    position: absolute;
+    left: 10px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-gato{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-pajaro{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act9 .act9-contenedor{
+    width: 500px;
+    border: 3px dotted gray;
+}
